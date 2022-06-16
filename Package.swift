@@ -7,7 +7,7 @@ let package = Package(
          .iOS(.v9)
      ],
      products: [
-         .library(name: "SwiftCharts", type: .dynamic, targets: ["SwiftCharts"])
+         .library(name: "SwiftCharts", targets: ["SwiftCharts"])
      ],
      targets: [
         .target(
